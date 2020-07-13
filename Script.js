@@ -960,6 +960,9 @@
     }
 
     //样式
+    $("#toptopics").next("span").hide();
+    $(".forumbox.postbox:first").next("span").hide();
+    $("td.null").hide();
     let style = document.createElement("style")
     style.type = "text/css"
     style.appendChild(document.createTextNode(`
